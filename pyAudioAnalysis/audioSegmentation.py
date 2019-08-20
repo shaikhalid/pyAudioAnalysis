@@ -978,7 +978,7 @@ def speakerDiarization(filename, n_speakers, mt_size=2.0, mt_step=0.2,
                                                         100 * purity_speaker_m))
     if plot_res:
         plt.xlabel("time (seconds)")
-        #print s_range, sil_all    
+        print s_range, sil_all    
         if n_speakers<=0:
             plt.subplot(212)
             plt.plot(s_range, sil_all)
